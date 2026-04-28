@@ -19,6 +19,7 @@ def get_raw_stream():
         'quiet': True,
         'no_warnings': True,
         'noplaylist': True,
+        'extractor_args': {'youtube': {'client': ['android']}}
     }
     
     try:
